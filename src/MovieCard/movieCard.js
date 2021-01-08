@@ -49,6 +49,11 @@ export default function MovieCard(props) {
       <CardContent>
         <h1>{props.title}</h1>
       </CardContent>
+      <CardMedia
+        className={classes.media}
+        image={props.poster}
+        title={props.title}
+      />
     </Card>
   );
 }
