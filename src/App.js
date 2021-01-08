@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header/Header'
 
+import MovieCards from './MovieCards/MovieCards'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Welcome to the Shoppies!
-      </header>
+      <Header />
+     
+      <MovieCards movies={['Crow', 'Jumanji', 'Jurassic Park']} />
     </div>
   );
 }
