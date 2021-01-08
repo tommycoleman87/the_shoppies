@@ -46,7 +46,9 @@ export default function MovieCard(props) {
 
   return (
     <Card className={classes.root}>
-      <h1>{props.title}</h1>
+      <CardContent>
+        <h1>{props.title}</h1>
+      </CardContent>
     </Card>
   );
 }
